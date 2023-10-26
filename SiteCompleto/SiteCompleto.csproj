@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\js\script.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\img\logo.png" />
   </ItemGroup>
 
