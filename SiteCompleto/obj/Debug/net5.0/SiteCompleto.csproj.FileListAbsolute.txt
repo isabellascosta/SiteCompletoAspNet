@@ -359,3 +359,4 @@ C:\Users\Isabella\source\Repos\SiteCompleto\SiteCompleto\SiteCompleto\obj\Debug\
 C:\Users\Isabella\source\Repos\SiteCompleto\SiteCompleto\SiteCompleto\obj\Debug\net5.0\SiteCompleto.pdb
 C:\Users\Isabella\source\Repos\SiteCompleto\SiteCompleto\SiteCompleto\obj\Debug\net5.0\SiteCompleto.genruntimeconfig.cache
 C:\Users\Isabella\source\Repos\SiteCompleto\SiteCompleto\SiteCompleto\obj\Debug\net5.0\ref\SiteCompleto.dll
+C:\Users\Isabella\source\Repos\SiteCompleto\SiteCompleto\SiteCompleto\obj\Debug\net5.0\Razor\Views\Home\Login.cshtml.g.cs
