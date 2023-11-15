@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - SiteCompleto</title>
     <environment include="Development">
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'>
         <link rel="stylesheet" href="~/css/style.css">
         <link rel="stylesheet" href="~/css/reset.css">
     </environment>
@@ -30,7 +31,7 @@
                     <a class="aStyle" asp-area="" asp-controller="Home" asp-action="Privacy">Sobre</a>
                 </li>
             </ul>
-            <a class="login" asp-area="" asp-controller="Home" asp-action="Login">
+            <a class="login" asp-area="" asp-controller="Account" asp-action="Login">
                 <img src="~/img/login.png" />
             </a>
         </nav>
@@ -48,6 +49,9 @@
     </footer>
 
     <script src="~/js/mobile-navbar.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <script src="~/js/ImageIndexScript.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

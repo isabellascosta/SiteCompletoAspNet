@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /*ESPAÇO PARA O NAVBAR*/
 .aStyle {
@@ -134,6 +135,124 @@
 }
 
 /*FIM DO SLIDE*/
+/*INICIO IMAGENS EM CARROSEL*/
+.image-section {
+    position: relative;
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(19,28,25,1) 0%, rgba(88,83,114,1) 90% );
+    overflow: hidden;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+    filter: blur(1px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: self-start;
+}
+
+.swiper-slide-active {
+    filter: blur(0px);
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+    background: #fff;
+}
+
+.swiper-slide span {
+    text-transform: uppercase;
+    color: #fff;
+    background: #1b7402;
+    padding: 7px 18px 7px 25px;
+    display: inline-block;
+    border-radius: 0 20px 20px 0px;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.swiper-slide--one span {
+    background: #62667f;
+}
+
+.swiper-slide--two span {
+    background: #087ac4;
+}
+
+.swiper-slide--three span {
+    background: #b45205;
+}
+
+.swiper-slide--four span {
+    background: #087ac4;
+}
+
+.swiper-slide h2 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    padding: 25px 45px 0 25px;
+}
+
+.swiper-slide p {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    padding: 0 25px 35px 25px;
+}
+
+.swiper-slide svg {
+    color: #fff;
+    width: 22px;
+    height: 22px;
+    margin-right: 7px;
+}
+
+.swiper-slide--one {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url(/img/ImageCarrossel/jujutsukaisen.jpg) no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--two {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url(/img/ImageCarrossel/onepiece.jpg) no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--three {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url(/img/ImageCarrossel/demonslayer.jpg) no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--four {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url(/img/ImageCarrossel/narutoshippuden.jpg) no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--five {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url(/img/ImageCarrossel/youname.jpg) no-repeat 50% 50% / cover;
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+    background-image: none;
+}
+/*FIM IMAGENS EM CARROSEL*/
 
 /*TELA LOGIN*/
 * {
@@ -156,7 +275,7 @@
     width: 420px;
     background-color: transparent;
     border: 2px solid rgba(255,255,255,.2);
-    backdrop-filter:blur(20px);
+    backdrop-filter:blur(40px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     color: #ffffff;
     border-radius:10px;
@@ -227,6 +346,9 @@
     color:#333;
     font-weight:600;
 }
+/*FIM TELA LOGIN*/
+
+
 
 .wrapper .register-link{
     font-size:14.5px;
