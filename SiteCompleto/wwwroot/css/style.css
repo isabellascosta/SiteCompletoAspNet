@@ -136,14 +136,24 @@
 
 /*FIM DO SLIDE*/
 /*INICIO IMAGENS EM CARROSEL*/
+
+.bindex{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(19,28,25,1) 0%, rgba(88,83,114,1) 90% );
+}
+.txth2{
+    display:block;
+    text-align:center;
+    margin-top:60px;
+    color:#ffffff;
+    font-size:30px;
+}
 .image-section {
     position: relative;
     width: 100%;
-    min-height: 70vh;
+    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(19,28,25,1) 0%, rgba(88,83,114,1) 90% );
     overflow: hidden;
 }
 
@@ -255,12 +265,15 @@
 /*FIM IMAGENS EM CARROSEL*/
 
 /*TELA LOGIN*/
+
+/*LOGIN*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 .blogin{
     
     display:flex;
@@ -346,6 +359,9 @@
     color:#333;
     font-weight:600;
 }
+
+
+
 /*FIM TELA LOGIN*/
 
 
