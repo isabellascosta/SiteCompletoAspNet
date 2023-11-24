@@ -339,6 +339,54 @@
 }
 /*FIM IMAGENS EM CARROSEL*/
 
+/*INICIO DO TOPICO SOMENTE NO NETFLIX*/
+
+
+
+.divisao-imagemp {
+    
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.texto-projetosp {
+    font-size: 25px;
+    color: #fff;
+    padding: 10px;
+}
+
+.tamanho-imgp {
+    max-width: 95%;
+    height: 450px;
+    width:400px;
+    object-fit: cover;
+}
+
+.containerp {
+    position: relative;
+    width: 310px;
+    margin: 10px;
+    display: inline-block;
+}
+
+
+
+.textp {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+
+
 /*TELA LOGIN*/
 
 /*LOGIN*/
