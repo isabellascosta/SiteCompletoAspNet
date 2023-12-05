@@ -65,11 +65,11 @@
 /*FIM NAVBAR*/
 
 /*CÓDIGO PARA P INICIO DO SLIDE*/
-.load {
+.loadsl {
     animation: slide 2s;
 }
 
-.slider {
+.slidersl {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -80,14 +80,14 @@
     z-index:3;
 }
 
-.content {
+.contentsl {
     color: #fff;
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.2);
 }
 
-.principal {
+.principalsl {
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
@@ -385,15 +385,45 @@
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 
+/*CARD SLIDER*/
+.principal-card{
+    min-height: 60vh;
+    background-color:aqua;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+     
+}
+.card{
+    background-color: white;
+}
+.card .image-box-card{
+    height: 300px;
+    width:250px;
+  
+}
+.card .image-box-card img {
+        height: 100%;
+        width:100%;
+        object-fit: cover;
+    }
+.card .anime-details-card{
+    display:flex;
+    align-items:center;
+    column-gap:12px;
+    padding:15px;
+}
+.card .anime-details-card img {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+}
 
 
+/*FIM CARD SLIDER*/
 /*TELA LOGIN*/
-
 /*LOGIN*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -533,6 +563,11 @@
     .mobile-menu {
         display: block;
     }
+
+    .swiper-navBtn {
+        display: none;
+    }
+}
 }
 
 .nav-list.active {

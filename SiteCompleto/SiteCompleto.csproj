@@ -6,7 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\css\swiper-bundle.min.css" />
+    <Content Remove="wwwroot\js\CardSlider.js" />
     <Content Remove="wwwroot\js\script.js" />
+    <Content Remove="wwwroot\js\swiper-bundle.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\js\CardSlider.js" />
   </ItemGroup>
 
   <ItemGroup>
